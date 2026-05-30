@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "4000:4000"
+    env_file:
+      - .env
+    environment:
+      MIX_ENV: dev
+      PORT: "4000"
