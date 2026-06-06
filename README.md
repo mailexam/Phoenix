@@ -1,6 +1,6 @@
 # Phoenix + Mailexam
 
-Minimal [Phoenix](https://www.phoenixframework.org/) example that sends test mail through [Mailexam](https://mailexam.ru/) SMTP via [Swoosh](https://hexdocs.pm/swoosh/).
+Minimal [Phoenix](https://www.phoenixframework.org/) example that sends test mail through [Mailexam](https://mailexam.io/) SMTP via [Swoosh](https://hexdocs.pm/swoosh/).
 
 Based on the [Mailexam Phoenix guide](https://wiki.mailexam.ru/en/examples/phoenix/).
 
@@ -15,7 +15,7 @@ From your Mailexam welcome email or dashboard:
 |----------|-------------|
 | `MAILEXAM_LOGIN` | SMTP login (for example, `xxxxx`) |
 | `MAILEXAM_PASSWORD` | SMTP password (paired with the login) |
-| Host | `{MAILEXAM_LOGIN}.mailexam.ru` (built in `config/runtime.exs`) |
+| Host | `{MAILEXAM_LOGIN}.mailexam.io` (built in `config/runtime.exs`) |
 
 ## Quick start (host)
 
@@ -129,13 +129,13 @@ variables:
   MAIL_FROM: "noreply@example.test"
 ```
 
-After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.ru/api).
+After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.io/api).
 
 ## Troubleshooting
 
 **TLS or authentication failed**
 
-- Host must be `{login}.mailexam.ru`, where `{login}` matches `MAILEXAM_LOGIN`.
+- Host must be `{login}.mailexam.io`, where `{login}` matches `MAILEXAM_LOGIN`.
 - Login and password must come from the same Mailexam project.
 
 **Port 587**
@@ -156,4 +156,4 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 - [Mailexam Phoenix guide (wiki)](https://wiki.mailexam.ru/en/examples/phoenix/)
 - [Django reference implementation](https://github.com/mailexam/Django) — similar SMTP configuration via config
 - [Swoosh SMTP adapter](https://hexdocs.pm/swoosh/Swoosh.Adapters.SMTP.html)
-- [Mailexam API documentation](https://mailexam.ru/api)
+- [Mailexam API documentation](https://mailexam.io/api)

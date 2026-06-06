@@ -31,7 +31,7 @@ if login && password && login != "" && password != "" do
 
   config :mailexam, Mailexam.Mailer,
     adapter: Swoosh.Adapters.SMTP,
-    relay: "#{login}.mailexam.ru",
+    relay: "#{login}.mailexam.io",
     username: login,
     password: password,
     port: port,
