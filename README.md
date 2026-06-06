@@ -154,5 +154,6 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 ## See also
 
 - [Mailexam Phoenix guide (wiki)](https://wiki.mailexam.ru/en/examples/phoenix/)
+- [Django reference implementation](https://github.com/mailexam/Django) — similar SMTP configuration via config
 - [Swoosh SMTP adapter](https://hexdocs.pm/swoosh/Swoosh.Adapters.SMTP.html)
 - [Mailexam API documentation](https://mailexam.ru/api)
