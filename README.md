@@ -157,3 +157,7 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 - [Django reference implementation](https://github.com/mailexam/Django) — similar SMTP configuration via config
 - [Swoosh SMTP adapter](https://hexdocs.pm/swoosh/Swoosh.Adapters.SMTP.html)
 - [Mailexam API documentation](https://mailexam.io/api)
+
+## License
+
+Apache 2.0
